@@ -2,6 +2,7 @@
 
 This project consists of adjusting the light pulse intensity of a red, green, and blue LEDs. By putting them together, the light is combined and can be modified to show different RGB mixes. 
 
+The design can be used for an ASIC tapeout or FPGA synthesis (/fpga contains the Makefile for synthesis).
 
 # Architecture 
 
