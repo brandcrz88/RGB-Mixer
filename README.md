@@ -1,5 +1,5 @@
-# RGB Mixer 
-![giphy (1)](https://github.com/brandcrz88/RGB-Mixer/assets/140255993/dc2f1130-5a4f-4ef8-9190-4705f435f2b2)
+# RGB Mixer ![cpu](https://github.com/brandcrz88/RGB-Mixer/assets/140255993/7088aa81-e2fe-48dd-82b5-f6d7118ce53f)
+
 
 This project consists of adjusting the light pulse intensity of a red, green, and blue LEDs. By putting them together, the light is combined and can be modified to show different RGB mixes.
 
