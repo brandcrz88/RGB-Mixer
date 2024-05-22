@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1715800480" />
+    <testcase name="test_all" classname="test.test_rgb_mixer" file="/home/brandon/verilog/rgb_mixer/test/test_rgb_mixer.py" lineno="35" time="1.4029490947723389" sim_time_ns="156190001.0" ratio_time="111329770.68233931" />
+  </testsuite>
+</testsuites>

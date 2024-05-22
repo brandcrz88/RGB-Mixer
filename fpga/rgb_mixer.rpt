@@ -1,0 +1,50 @@
+
+icetime topological timing analysis report
+==========================================
+
+Info: max_span_hack is enabled: estimate is conservative.
+
+Report for critical path:
+-------------------------
+
+        lc40_18_4_1 (LogicCell40) [clk] -> lcout: 1.491 ns
+     1.491 ns net_68472 (pwm0.counter[1])
+        odrv_18_4_68472_68615 (Odrv4) I -> O: 0.649 ns
+        t818 (Span4Mux_v4) I -> O: 0.649 ns
+        t817 (LocalMux) I -> O: 1.099 ns
+        inmux_16_3_64579_64635 (InMux) I -> O: 0.662 ns
+        t234 (CascadeMux) I -> O: 0.000 ns
+        lc40_16_3_7 (LogicCell40) in2 -> lcout: 1.205 ns
+     5.755 ns net_60693 (pwm0_out_SB_LUT4_O_I1_SB_LUT4_O_I0[2])
+        t709 (LocalMux) I -> O: 1.099 ns
+        inmux_16_4_64688_64734 (InMux) I -> O: 0.662 ns
+        t240 (CascadeMux) I -> O: 0.000 ns
+        lc40_16_4_3 (LogicCell40) in2 -> lcout: 1.205 ns
+     8.722 ns net_60812 (pwm0_out_SB_LUT4_O_I1[0])
+        t712 (LocalMux) I -> O: 1.099 ns
+        inmux_15_5_60984_61006 (InMux) I -> O: 0.662 ns
+        lc40_15_5_0 (LogicCell40) in0 -> lcout: 1.285 ns
+    11.768 ns net_57102 (pwm0_out$SB_IO_OUT)
+        odrv_15_5_57102_57244 (Odrv4) I -> O: 0.649 ns
+        t657 (Span4Mux_v4) I -> O: 0.649 ns
+        t656 (Span4Mux_v4) I -> O: 0.649 ns
+        t655 (Span4Mux_v4) I -> O: 0.649 ns
+        t654 (Span4Mux_v4) I -> O: 0.649 ns
+        t653 (Span4Mux_v4) I -> O: 0.649 ns
+        t652 (Span4Mux_v4) I -> O: 0.649 ns
+        t651 (Span4Mux_v4) I -> O: 0.649 ns
+        t650 (LocalMux) I -> O: 1.099 ns
+        inmux_18_31_75678_75671 (IoInMux) I -> O: 0.662 ns
+    18.722 ns net_75671 (pwm0_out$SB_IO_OUT)
+        pre_io_18_31_1 (PRE_IO) DOUT0 [setup]: 0.187 ns
+    18.909 ns io_pad_18_31_1_din
+
+Resolvable net names on path:
+     1.491 ns ..  4.550 ns pwm0.counter[1]
+     5.755 ns ..  7.517 ns pwm0_out_SB_LUT4_O_I1_SB_LUT4_O_I0[2]
+     8.722 ns .. 10.484 ns pwm0_out_SB_LUT4_O_I1[0]
+    11.768 ns .. 18.722 ns pwm0_out$SB_IO_OUT
+
+Total number of logic levels: 4
+Total path delay: 18.91 ns (52.89 MHz)
+

@@ -1,0 +1,42 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Wed May 15 21:23:03 2024
+[*]
+[dumpfile] "/home/brandon/verilog/rgb_mixer/debounce.vcd"
+[dumpfile_mtime] "Wed May 15 19:14:39 2024"
+[dumpfile_size] 10074
+[savefile] "/home/brandon/verilog/rgb_mixer/debounce.gtkw"
+[timestart] 1413700
+[size] 1294 704
+[pos] -51 -51
+*-15.890149 1587600 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 233
+[signals_width] 218
+[sst_expanded] 1
+[sst_vpaned_height] 180
+@28
+debounce.clk
+debounce.reset
+@800022
+debounce.button_hist[7:0]
+@28
+(0)debounce.button_hist[7:0]
+(1)debounce.button_hist[7:0]
+(2)debounce.button_hist[7:0]
+(3)debounce.button_hist[7:0]
+(4)debounce.button_hist[7:0]
+(5)debounce.button_hist[7:0]
+(6)debounce.button_hist[7:0]
+(7)debounce.button_hist[7:0]
+@1001200
+-group_end
+@28
+debounce.debounced
+@420
+debounce.on_value
+@28
+debounce.button
+@420
+debounce.HIST_LEN
+[pattern_trace] 1
+[pattern_trace] 0
