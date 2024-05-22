@@ -21,7 +21,7 @@ Having three color channels, with two inputs each, the design has a total of 6 d
 
 The Makefile automates the compilation process that tests the behavior of each module, including the top module. Comprisingly, it takes care of the simulation and verification processes. On the first step, iverilog produces two files , on the second step, Python's module cocotb takes the output files to produce the wave signal simulation and the verification of the designs with vvp that checks for the design's robustness and functionality with an specific testbench written for each of the modules.
 
-image.jpg
+![Mind Map (2)](https://github.com/brandcrz88/RGB-Mixer/assets/140255993/a3245824-ea75-4c87-a470-763861dc3e9f)
 
 ## Testing on a FPGA
 
