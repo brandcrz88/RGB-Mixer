@@ -11,7 +11,7 @@ The top module is shown below and it consists of 3 sub modules (an additional cl
 - Encoder. 
 - Pulse width modulator (PWM).
 
-![Mind Map (1)](https://github.com/brandcrz88/RGB-Mixer/assets/140255993/574f533e-fcea-4481-b560-5d270094fd50)
+![Mind Map](https://github.com/brandcrz88/RGB-Mixer/assets/140255993/91a56edd-b1ad-48c4-8850-878f6b5b92c4)
 
 So, each color channel takes two inputs (from a rotary encoder) which are debounced to correct the mechanical bouncing of the signal. Following, both inputs are combined and encoded to produce a value that determines the level of light intensity that the corresponding color channel will be producing. Finally, this value is set in the PWM, setting the width of the pulse that powers the LED.  Overall, adjusting the rotary encoder dims or brightnes the LED. 
 
