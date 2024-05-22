@@ -29,20 +29,22 @@ picture.jpg
 
 The process of testing the design on an FPGA consists of:
 
-- Synthesis.
+- Design: The first step is to write the design's functionality using HDL.
 
-- Mappinng.
+- Synthesis: The HDL is converted into a gate-level representation by a synthesis tool such as open source `Yosys`. 
 
-- Place and route.
+- Mapping: The logic gates and flip-flops can be placed into the FPGA's specific blocks and routing resources.
 
-- Bitstream.
+- Place and route: The mapped design is physically placed into the FPGA's chip space and creates the interconnections.
+  
+- Bitstream: It generates a bitstream file that contains the configuration data that is loaded into the FPGA, which sets the internal circuit.
 
-- Programing.
+- Programming: The bitstream is loaded into the FPGA, more often through a USB or JTAG interface.
 
 The "fpga" directory contains its own Makefile that automates the synthesis process to program the design on an icebreaker FPGA.
 
 ## License
 
-This project is part of the Zero to ASIC Course. 
+This project is part of the Zero to ASIC Course and licensed by  
 
 
