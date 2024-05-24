@@ -4,7 +4,7 @@ This project consists of adjusting the light pulse intensity of a red, green, an
 
 The design can be used for an ASIC tapeout or FPGA synthesis (/fpga contains the Makefile for synthesis).
 
-# Architecture 
+## Architecture 
 
 The top module is shown below and it consists of 3 sub modules (an additional clock divider module is included to reduce the clock frequency, in case of loading the design onto the icebreaker FPGA):
 
@@ -14,7 +14,7 @@ The top module is shown below and it consists of 3 sub modules (an additional cl
 
 ![Mind Map](https://github.com/brandcrz88/RGB-Mixer/assets/140255993/91a56edd-b1ad-48c4-8850-878f6b5b92c4)
 
-So, each color channel takes two inputs (from a rotary encoder) which are debounced to correct the mechanical bouncing of the signal. Following, both inputs are combined and encoded to produce a value that determines the level of light intensity that the corresponding color channel will be producing. Finally, this value is set in the PWM, setting the width of the pulse that powers the LED.  Overall, adjusting the rotary encoder dims or brightnes the LED. 
+Each color channel takes two inputs from a rotary encoder, which are debounced to correct the mechanical bouncing of the signal. These inputs are then combined and encoded to produce a value that determines the light intensity level for the corresponding color channel. Finally, this value is set in the PWM, adjusting the pulse width that powers the LED. Adjusting the rotary encoder dims or brightens the LED.
 
 Having three color channels, with two inputs each, the design has a total of 6 debounce modules, 3 encoders, and 3 PWMs.
 
