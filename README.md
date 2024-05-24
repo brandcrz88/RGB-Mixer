@@ -1,4 +1,4 @@
-# RGB Mixer 🎛️
+# 🎛️ RGB Mixer 
 
 This project consists of adjusting the light pulse intensity of a red, green, and blue LEDs. By putting them together, the light is combined and can be modified to show different RGB mixes. 
 
